@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bio-title{
+    overflow: hidden;
+    text-align: center;
+    background: #b12763;
+    padding: 60px;
+}
+
+.bio-title h1 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.bio-title h2 {
+    margin-top: 20px;
+    color: white;
+}
+
+.bio-pic {
+    display: inline-block;
+    margin: 0 30px;
+    width: 600px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.bio-text {
+    width: 1000px;
+    margin: auto;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer a{
+    color: white;
+}
